@@ -362,6 +362,12 @@
 			</div>
 			<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
 	</section>
+
+    <script>
+        if(!window.guideMe)window.guideMe={}; 
+        window.guideMe.baseUrl='//qa2-cdn.guideme.io/guideme-player/ent/';
+        var a=document.createElement('script');a.src=guideMe.baseUrl+'guideme.js';document.head.appendChild(a);
+    </script>
 </body>
 
 </html>
